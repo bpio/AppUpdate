@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_download">Starting download</string>
+    <string name="connecting_to_the_server">Connecting to the server</string>
+    <string name="new_versions_download_path_mistake">Download path error for new version</string>
+    <string name="is_downloading">Downloading:</string>
+    <string name="update_new_versions_error">Error updating new version,</string>
+    <string name="download_completed_please_click_install">Download completed, please click install</string>
+
+    <string name="update_app_cant_be_empty">updateApp cannot be empty</string>
+    <string name="download_path_mistake">Download path error:</string>
+    <string name="app_is_being_updated">App is being updated</string>
+    <string name="no_new_versions">No new version</string>
+    <string name="analysis_custom_update_configuration_information_error">Error parsing custom update configuration message[%s]</string>
+    <string name="the_necessary_parameters_cannot_be_empty">The necessary parameters cannot be empty</string>
+
+    <string name="please_authorize_access_to_storage_space">Please authorize access to the storage space, otherwise the App cannot be updated</string>
+    <string name="new_version_size">New version size:</string>
+    <string name="whether_upgrade_versions">Did you upgrade to %s version?</string>
+    <string name="cancel_download">Cancel the download</string>
+    <string name="installation">install</string>
+</resources>
