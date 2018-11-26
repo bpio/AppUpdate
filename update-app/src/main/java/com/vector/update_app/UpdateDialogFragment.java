@@ -47,7 +47,6 @@ import java.io.File;
  */
 
 public class UpdateDialogFragment extends DialogFragment implements View.OnClickListener {
-    public final String TIPS = getString(R.string.please_authorize_access_to_storage_space);
     public static boolean isShow = false;
     private TextView mContentTextView;
     private Button mUpdateOkButton;
@@ -291,7 +290,7 @@ public class UpdateDialogFragment extends DialogFragment implements View.OnClick
             if (flag != PackageManager.PERMISSION_GRANTED) {
                 if (ActivityCompat.shouldShowRequestPermissionRationale(getActivity(), Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
                     // 用户拒绝过这个权限了，应该提示用户，为什么需要这个权限。
-                    Toast.makeText(getActivity(), TIPS, Toast.LENGTH_LONG).show();
+                    Toast.makeText(getActivity(), getString(R.string.please_authorize_access_to_storage_space), Toast.LENGTH_LONG).show();
                 } else {
                     // 申请授权。
                     requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
@@ -355,7 +354,7 @@ public class UpdateDialogFragment extends DialogFragment implements View.OnClick
                 installApp();
             } else {
                 //提示，并且关闭
-                Toast.makeText(getActivity(), TIPS, Toast.LENGTH_LONG).show();
+                Toast.makeText(getActivity(), getString(R.string.please_authorize_access_to_storage_space), Toast.LENGTH_LONG).show();
                 dismiss();
 
             }

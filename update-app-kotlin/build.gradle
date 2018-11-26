@@ -40,12 +40,13 @@ dependencies {
 }
 //添加
 publish {
-    userOrg = 'qianwen'//bintray.com用户名
-    groupId = 'com.qianwen'//jcenter上的路径
+    userOrg = 'bupocket'//bintray.com用户名
+    groupId = 'com.bupocket'//jcenter上的路径
     artifactId = 'update-app-kotlin'//项目名称
     publishVersion = rootProject.ext.update_app_kotlin_version//版本号
     desc = 'a library for android version update'
-    website = 'https://github.com/WVector/AppUpdate'
+    repoName = "AppUpdate"
+    website = ''
 }
 repositories {
     mavenCentral()
