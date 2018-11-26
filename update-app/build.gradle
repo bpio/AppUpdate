@@ -37,8 +37,8 @@ dependencies {
 
 //添加
 publish {
-    userOrg = 'zx'//bintray.com用户名
-    groupId = 'com.zhangxin'//jcenter上的路径
+    userOrg = 'bupocket'//bintray.com用户名
+    groupId = 'com.bupocket'//jcenter上的路径
     artifactId = 'update-app'//项目名称
     publishVersion = rootProject.ext.update_app_version//版本号
     desc = 'a library for android version update'

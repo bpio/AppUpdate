@@ -16,7 +16,7 @@
 
     <string name="please_authorize_access_to_storage_space">Please authorize the access privilege to storage space, or App cannot be updated</string>
     <string name="new_version_size">The new version size </string>
-    <string name="whether_upgrade_versions">Whether to upgrade to the % version?</string>
+    <string name="whether_upgrade_versions">Whether to upgrade to the version %s?</string>
     <string name="cancel_download">Cancel</string>
     <string name="installation">Install</string>
     <string name="upgrade">Upgrade</string>
