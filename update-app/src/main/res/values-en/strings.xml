@@ -19,6 +19,6 @@
     <string name="whether_upgrade_versions">Whether to upgrade to the version %s?</string>
     <string name="cancel_download">Cancel</string>
     <string name="installation">Install</string>
-    <string name="upgrade">Upgrade</string>
+    <string name="upgrade">Update</string>
     <string name="ignore_this_version">Ignore</string>
 </resources>
